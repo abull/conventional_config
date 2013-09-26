@@ -3,7 +3,7 @@ require 'erb'
 require 'hashie'
 
 require 'conventional_config/config'
-require 'conventional_config/engine'
+require 'conventional_config/engine' if defined? Rails
 
 
 module ConventionalConfig
